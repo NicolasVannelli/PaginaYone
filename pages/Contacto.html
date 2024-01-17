@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Builds</title>
+    <title>Contacto</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
@@ -24,7 +25,41 @@
             <!--Fin del menú-->
         </nav>
     </header>
-
+    <main class="fondocontacto">
+        <aside class="container">
+            <div class="row">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputName4" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="inputName4" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputLastName4" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="inputLastName4" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputNick" class="form-label">Nickname</label>
+                      <input type="text" class="form-control" id="inputNick" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputServer" class="form-label">Servidor</label>
+                      <select id="inputServer" class="form-select" required>
+                        <option selected>Servidor</option>
+                        <option>LAS</option>
+                        <option>LAN</option>
+                        <option>EUW</option>
+                        <option>NA</option>
+                        <option>Otro</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                        <textarea placeholder="¿Por qué quieres jugar conmigo?" required></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </form>
+        </aside>
     </main>
     <footer>
         <ul>
