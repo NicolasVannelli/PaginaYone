@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: $background-color_1;
+}
+
+footer {
+    background-color: $background-color_1;
+    text-align: center;
+    color: $color_1;
+}
+
+h1 {
+    text-align: center;
+    color: $color_1;
+    font-family: $font-family_1;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    color: $color_1;
+    font-family: $font-family_1;
+    font-size: 2rem;
+}
+
+a {
+    font-size: 1.4vh;
+}
+
+p {
+    color: $color_1;
+    font-family: $font-family_2;
+}
+
+textarea {
+    resize: none;
+    height: 100%;
+    width: 100%;
+}
