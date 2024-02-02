@@ -14,14 +14,7 @@ footer {
   color: white;
 }
 
-h1 {
-  text-align: center;
-  color: white;
-  font-family: "Shrikhand", "Roboto", sans-serif;
-  font-size: 2rem;
-}
-
-h2 {
+h1, h2, h3 {
   text-align: center;
   color: white;
   font-family: "Shrikhand", "Roboto", sans-serif;
@@ -35,6 +28,7 @@ a {
 p {
   color: white;
   font-family: "Roboto", sans-serif;
+  margin: 20px;
 }
 
 textarea {
@@ -89,8 +83,19 @@ header {
   flex-wrap: wrap;
 }
 
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 365px;
+  border: 2px solid grey;
+  border-radius: 25px;
+  margin: 5px;
+}
+
 .container {
-  height: 87vh;
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto;
@@ -136,6 +141,7 @@ header {
   border: 5px solid grey;
   border-radius: 20px;
   grid-gap: 10px;
+  height: 500px;
 }
 
 .items {
@@ -143,6 +149,7 @@ header {
   width: 50px;
   height: 50px;
   cursor: help;
+  margin-left: 15px;
 }
 
 .build {
@@ -306,6 +313,7 @@ header {
 .logos {
   width: 100px;
   height: 100px;
+  margin: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

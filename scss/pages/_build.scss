@@ -1,5 +1,4 @@
 .container {
-	height: 87vh;
 	display: grid;
 	grid-template-rows: auto auto;
 	grid-template-columns: auto auto;
@@ -41,12 +40,14 @@
 	border: 5px solid grey;
 	border-radius: 20px;
 	grid-gap: 10px;
+	height: 500px;
 }
 .items {
 	grid-column-start: 1;
 	width: 50px;
 	height: 50px;
 	cursor: help;
+	margin-left: 15px;
 }
 .build {
 	grid-column-start: 2;
