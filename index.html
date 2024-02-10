@@ -9,22 +9,30 @@
     <title>Inicio</title>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <header>
         <!--Inicio del menú de páginas-->
-        <nav>
-            <ul class="navegacion">
-                <li class="links"><a class="texto" href="./index.html">Inicio</a></li>
-                <li class="links"><a class="texto" href="./pages/Yone.html">Yone</a></li>
-                <li class="links"><a class="texto" href="./pages/Galeria.html">Galeria </a></li>
-                <li class="links"><a class="texto" href="./pages/Builds.html">Builds</a></li>
-                <li class="links"><a class="texto" href="./pages/Contacto.html">Contacto</a></li>
-            </ul>
-            <!--Fin del menú-->
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active texto" href="./index.html">Inicio</a>
+                <a class="nav-item nav-link texto" href="./pages/Yone.html">Yone</a>
+                <a class="nav-item nav-link texto" href="./pages/Galeria.html">Galeria</a>
+                <a class="nav-item nav-link texto" href="./pages/Builds.html">Builds</a>
+                <a class="nav-item nav-link texto" href="./pages/Contacto.html">Contacto</a>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <h1>Hablemos un poco sobre Yone</h1>
@@ -57,27 +65,27 @@
         <h2>Habilidades</h2>
         <section class="habilidades">
             <div class="card">
-                <img src="./assets/img/Pasiva.webp" alt="Pasiva de Yone" class="logos">
+                <img src="./assets/img/Pasiva.webp" alt="Pasiva de Yone" class="logohabilidad">
                 <h3>CAMINO DEL CAZADOR</h3>
                 <p>El primer ataque básico de Yone siempre será daño fisico, pero el segundo hará 50% daño fisico y 50% daño mágico, asi constantemente y además duplica la probabilidad de critico</p>
             </div>
             <div class="card">
-                <img src="./assets/img/Q.webp" alt="Pasiva de Yone" class="logos">
+                <img src="./assets/img/Q.webp" alt="Q de Yone" class="logohabilidad">
                 <h3>ACERO MORTAL</h3>
                 <p>Lanza una estocada al frente que inflige daño a los enemigos en una línea. Al golpear, otorga una acumulación de Tormenta inminente durante unos ocho segundos. Con 2 acumulaciones, Acero mortal desliza a Yone hacia delante con una ráfaga de viento que lanza a los enemigos por los aires. Acero mortal se comporta como un ataque básico y progresa del mismo modo, es decir, activa efectos de impacto y pega criticos</p>
             </div>
             <div class="card">
-                <img src="./assets/img/W.webp" alt="Pasiva de Yone" class="logos">
+                <img src="./assets/img/W.webp" alt="W de Yone" class="logohabilidad">
                 <h3>CUCHILLA ESPIRITUAL</h3>
                 <p>Realiza un tajo hacia delante que daña a todos los enemigos en un cono. Otorga a Yone un escudo cuyo valor aumenta en función del número de campeones alcanzados por el ataque. El enfriamiento y el tiempo de lanzamiento de Cuchillada espiritual progresan con la velocidad de ataque.</p>
             </div>
             <div class="card">
-                <img src="./assets/img/E.webp" alt="Pasiva de Yone" class="logos">
+                <img src="./assets/img/E.webp" alt="E de Yone" class="logohabilidad">
                 <h3>ALMA DESATADA</h3>
                 <p>El espíritu de Yone deja su cuerpo atrás y obtiene velocidad de movimiento. Cuando esta habilidad acaba, el espíritu de Yone se ve obligado a regresar a su cuerpo y repite una parte del daño que infligió como espíritu.</p>
             </div>
             <div class="card">
-                <img src="./assets/img/R.webp" alt="Pasiva de Yone" class="logos">
+                <img src="./assets/img/R.webp" alt="R de Yone" class="logohabilidad">
                 <h3>DESTINO SELLADO</h3>
                 <p>Yone se desplaza detrás del último campeón en una línea con una cuchillada tan poderosa que arrastra hacia él a todos los enemigos golpeados,haciendo tanto daño magico como daño fisico en partes iguales</p>
             </div>

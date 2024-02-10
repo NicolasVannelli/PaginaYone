@@ -106,8 +106,8 @@
 			grid-row-end: 3;
 			&:hover {
 				transition: 1s ease;
-				width: 110%;
-				height: 120%;
+				width: 105%;
+				height: 130%;
 				z-index: 0;
 				box-shadow: 0 0 200px rgba(221, 26, 26, 0.211);
 			}
@@ -127,5 +127,11 @@
 				box-shadow: 0 0 200px rgba(221, 26, 26, 0.211);
 			}
 		}
+	}
+}
+@media (max-width: 600px){
+	.Galeria{
+		display: flex;
+		flex-wrap: wrap;
 	}
 }

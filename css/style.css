@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-html {
+main {
   background-color: rgb(48, 42, 42);
 }
 
 footer {
-  background-color: rgb(48, 42, 42);
+  background-color: #212529;
   text-align: center;
   color: white;
 }
@@ -19,6 +19,7 @@ h1, h2, h3 {
   color: white;
   font-family: "Shrikhand", "Roboto", sans-serif;
   font-size: 2rem;
+  background-color: rgb(48, 42, 42);
 }
 
 a {
@@ -39,10 +40,9 @@ textarea {
 
 header {
   font-family: "Shrikhand", "Roboto", sans-serif;
+  background-color: #212529;
   display: flex;
   justify-content: center;
-  background-image: url(../assets/img/Yone.webp);
-  background-size: cover;
   position: sticky;
   top: 0%;
   align-items: end;
@@ -89,10 +89,24 @@ header {
 }
 
 .card {
+  background-color: rgb(48, 42, 42);
   width: 365px;
   border: 2px solid grey;
   border-radius: 25px;
   margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logohabilidad {
+  width: 100px;
+  height: 100px;
+  cursor: help;
+}
+
+body {
+  background-color: rgb(48, 42, 42);
 }
 
 .container {
@@ -154,6 +168,7 @@ header {
 
 .build {
   grid-column-start: 2;
+  border-radius: 20px;
 }
 
 .historia {
@@ -168,6 +183,12 @@ header {
   font-family: "Indie Flower", cursive;
 }
 
+@media (max-width: 720px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .Galeria {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -275,8 +296,8 @@ header {
 }
 .Galeria img.fotitos:nth-child(7):hover {
   transition: 1s ease;
-  width: 110%;
-  height: 120%;
+  width: 105%;
+  height: 130%;
   z-index: 0;
   box-shadow: 0 0 200px rgba(221, 26, 26, 0.211);
 }
@@ -296,6 +317,12 @@ header {
   box-shadow: 0 0 200px rgba(221, 26, 26, 0.211);
 }
 
+@media (max-width: 600px) {
+  .Galeria {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .row {
   height: 100vh;
 }

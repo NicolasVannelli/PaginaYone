@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html {
+main{
     background-color: $background-color_1;
 }
-
 footer {
-    background-color: $background-color_1;
+    background-color: $background-color_3;
     text-align: center;
     color: $color_1;
 }
@@ -19,6 +17,7 @@ h1,h2,h3 {
     color: $color_1;
     font-family: $font-family_1;
     font-size: 2rem;
+    background-color: $background-color_1;
 }
 
 a {
